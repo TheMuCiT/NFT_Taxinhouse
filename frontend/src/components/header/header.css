@@ -38,7 +38,7 @@
 .headerLeftButtonWrapper {
      display: flex;
      align-items: center;
-     justify-content: center;
+     justify-content: flex-start;
      gap: 20px;
      margin-top: 30px;
 }
@@ -210,6 +210,16 @@ a {
 
 .carousel__btn-arrow--left {
      transform: rotate(-180deg);
+}
+
+@media only screen and (max-width: 1600px) {
+     .carousel__btn--prev {
+          left: 1rem;
+     }
+
+     .carousel__btn--next {
+          right: 1rem;
+     }
 }
 
 @media only screen and (max-width: 1450px) {
