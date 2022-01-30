@@ -1,0 +1,128 @@
+.roadmapBC {
+     position: relative;
+}
+
+.roadmap {
+     flex-direction: column;
+}
+
+.roadmapItem {
+     display: flex;
+     align-items: center;
+     margin-bottom: 100px;
+     height: 450px;
+     gap: 70px;
+}
+
+.roadmapItemLeft {
+     flex: 50%;
+}
+
+.roadmapItemRight {
+     flex: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     align-items: flex-end;
+}
+
+.roadmapItemLeftTitle {
+     color: var(--color-text-main);
+     font-size: 40px;
+     font-weight: 600;
+     text-align: left;
+     max-width: 440px;
+     margin-bottom: 20px;
+}
+
+.roadmapItemRightTitle {
+     color: var(--color-text-main);
+     font-size: 40px;
+     font-weight: 600;
+     text-align: right;
+     max-width: 440px;
+     margin-bottom: 20px;
+}
+
+.roadmapItemLeftText {
+     color: var(--color-text-main);
+     font-weight: 400;
+     font-size: 20px;
+     text-align: left;
+     max-width: 640px;
+}
+
+.roadmapItemRightText {
+     color: var(--color-text-main);
+     font-weight: 400;
+     font-size: 20px;
+     text-align: right;
+     max-width: 640px;
+}
+
+.roadmapImage {
+     width: 800px;
+     height: 400px;
+     background-color: var(--color-main-second);
+}
+
+.ImageRight {
+     position: absolute;
+     right: 0;
+     top: 0;
+     width: 45%;
+     background-color: var(--color-main-second);
+     height: 450px;
+}
+
+.ImageLeft {
+     position: absolute;
+     left: 0;
+     top: 550px;
+     width: 45%;
+     background-color: var(--color-main-second);
+     height: 450px;
+}
+
+.roadmapImage {
+     display: none;
+}
+
+@media only screen and (max-width: 1300px) {
+     .ImageRight,
+     .ImageLeft {
+          display: none;
+     }
+     .roadmapItemLeft,
+     .roadmapItemRight {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+     }
+     .roadmapItem {
+          flex-direction: column;
+          margin: 0 20px 100px;
+     }
+     .roadmapItem2 {
+          flex-direction: column-reverse;
+     }
+     .roadmapImage {
+          display: flex;
+     }
+     .roadmapItem {
+          height: auto;
+     }
+     .roadmapItemLeftTitle,
+     .roadmapItemLeftText,
+     .roadmapItemRightTitle,
+     .roadmapItemRightText {
+          text-align: center;
+     }
+}
+
+@media only screen and (max-width: 850px) {
+     .roadmapImage {
+          width: 90vw;
+     }
+}

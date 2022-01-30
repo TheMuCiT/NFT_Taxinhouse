@@ -3,6 +3,7 @@ import React from 'react'
 import { ReactComponent as DiscordSVG } from '../../icons/Discord.svg'
 import { ReactComponent as TwitterSVG } from '../../icons/Twitter.svg'
 import { ReactComponent as MSVG } from '../../icons/M.svg'
+import { ReactComponent as Logo } from '../../icons/Logo.svg'
 
 import './footer.css'
 const Footer = () => {
@@ -21,14 +22,16 @@ const Footer = () => {
           <div className='footerBC componentFirst'>
                <div className='footerMain componentSecond'>
                     <div className='footerMainLeft'>
-                         <div className='footerMainLeftLogo'>Logo</div>
-                         <div className='footerMainLeftText'>textUnderTitle</div>
+                         <div className='footerMainLeftLogo'>
+                              <Logo className='LogoWhite' />
+                         </div>
+                         <div className='footerMainLeftText'>Komodo jobs</div>
                          <div className='footerMainLeftLinks'>
                               <TwitterSVG className='footerIcon' onClick={handleTwitter} />
                               <DiscordSVG className='footerIcon' onClick={handleDiscord} />
                               <MSVG className='footerIcon' onClick={handleM} />
                          </div>
-                         <div className='footerMainLeftCopy'>Ⓒ 2021 - LOGO all rights reserved</div>
+                         <div className='footerMainLeftCopy'>Ⓒ 2021 - KOMODO JOBS all rights reserved</div>
                     </div>
                     <div className='footerMainRight'>
                          <div className='footerMainRightItem'>

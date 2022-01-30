@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.22cb0474.chunk.css",
+    "main.js": "/static/js/main.c87a8e87.chunk.js",
+    "main.js.map": "/static/js/main.c87a8e87.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f5cfbed7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f5cfbed7.js.map",
+    "static/js/2.aaf046a6.chunk.js": "/static/js/2.aaf046a6.chunk.js",
+    "static/js/2.aaf046a6.chunk.js.map": "/static/js/2.aaf046a6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.22cb0474.chunk.css.map": "/static/css/main.22cb0474.chunk.css.map",
+    "static/js/2.aaf046a6.chunk.js.LICENSE.txt": "/static/js/2.aaf046a6.chunk.js.LICENSE.txt",
+    "static/media/Arrow.92dc910e.svg": "/static/media/Arrow.92dc910e.svg",
+    "static/media/Bud.57662eb4.svg": "/static/media/Bud.57662eb4.svg",
+    "static/media/Close.a11388e3.svg": "/static/media/Close.a11388e3.svg",
+    "static/media/Discord.1eeda2f8.svg": "/static/media/Discord.1eeda2f8.svg",
+    "static/media/Logo.2bcd0087.svg": "/static/media/Logo.2bcd0087.svg",
+    "static/media/M.07280f1b.svg": "/static/media/M.07280f1b.svg",
+    "static/media/Marijuana.c9134c63.svg": "/static/media/Marijuana.c9134c63.svg",
+    "static/media/Marijuana1.f9257ba3.svg": "/static/media/Marijuana1.f9257ba3.svg",
+    "static/media/MobileMenu.73e0b034.svg": "/static/media/MobileMenu.73e0b034.svg",
+    "static/media/Twitter.a816097a.svg": "/static/media/Twitter.a816097a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5cfbed7.js",
+    "static/js/2.aaf046a6.chunk.js",
+    "static/css/main.22cb0474.chunk.css",
+    "static/js/main.c87a8e87.chunk.js"
+  ]
+}

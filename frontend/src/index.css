@@ -1,16 +1,14 @@
 :root {
      /*COLOR*/
-     --color-background: red;
-     --color-navbar: red;
+     --color-background: #ffffff;
+     --color-navbar: #ffffff;
 
-     --color-main: red;
-     --color-main-second: red;
+     --color-main: #498285;
+     --color-main-second: #f5f5f5;
      --color-white: #ffffff;
-     --color-box: red;
+     --color-box: #498285;
 
-     --color-text-main: orange;
-     --color-text-second: orange;
-     --color-text-title: orange;
+     --color-text-main: #000000;
 
      /*SIZE*/
      ---main-padding: 0px;
@@ -19,7 +17,7 @@
      ---border-radius-button: 0px;
      ---border-radius-small: 0px;
 
-     ---navbar-height: 100px;
+     ---navbar-height: 150px;
 }
 
 body {
@@ -28,7 +26,7 @@ body {
      font-family: 'Poppins', sans-serif;
      -webkit-font-smoothing: antialiased;
      -moz-osx-font-smoothing: grayscale;
-     background-color: #18191a;
+     background-color: #ffffff;
 }
 
 .main {
@@ -54,6 +52,19 @@ body {
      margin: 0 50px;
 }
 
+.Dot {
+     background-color: #498285;
+     border-radius: 50%;
+     width: 10px;
+     height: 10px;
+     margin: 5px 0;
+     display: flex;
+}
+
+.dn {
+     display: none;
+}
+
 @media only screen and (max-width: 670px) {
      .componentSecond {
           margin: 0 20px;
@@ -61,10 +72,16 @@ body {
      .main {
           margin-bottom: 100px;
      }
+
+     .Dot {
+          width: 5px;
+          height: 5px;
+          margin: 2px 0;
+     }
 }
 
 @media only screen and (max-width: 450px) {
      .componentSecond {
-          margin: 0 10px;
+          margin: 0 20px;
      }
 }

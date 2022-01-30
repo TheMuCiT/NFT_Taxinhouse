@@ -1,5 +1,5 @@
 .footerBC {
-     background-color: var(--color-navbar);
+     background-color: var(--color-box);
 }
 
 .footerMain {
@@ -23,14 +23,14 @@
 }
 
 .footerMainLeftLogo {
-     color: var(--color-text-main);
+     color: var(--color-white);
      font-weight: 400;
      font-size: 21px;
      margin-bottom: 14px;
 }
 
 .footerMainLeftText {
-     color: var(--color-text-main);
+     color: var(--color-white);
      font-weight: 400;
      font-size: 20px;
      opacity: 0.3;
@@ -47,7 +47,7 @@
 }
 
 .footerMainLeftCopy {
-     color: var(--color-text-main);
+     color: var(--color-white);
      font-weight: 600;
      font-size: 20px;
 }
@@ -62,7 +62,7 @@
 }
 
 .footerMainRightItemTitle {
-     color: var(--color-text-main);
+     color: var(--color-white);
      letter-spacing: 1.8px;
      font-weight: 600;
      font-size: 36px;
@@ -88,7 +88,7 @@
 }
 
 .footerMainRightItemText {
-     color: var(--color-text-main);
+     color: var(--color-white);
      letter-spacing: 1.8px;
      font-weight: 400;
      font-size: 16px;
@@ -117,6 +117,10 @@
      display: none;
 }
 
+.LogoWhite path {
+     fill: #ffffff;
+}
+
 @media only screen and (max-width: 1300px) {
      .footerMain {
           flex-direction: column;
@@ -139,7 +143,7 @@
           width: 100%;
           align-items: center;
           justify-content: center;
-          color: var(--color-text-main);
+          color: var(--color-white);
           font-weight: 600;
           font-size: 20px;
           margin-top: 20px;
