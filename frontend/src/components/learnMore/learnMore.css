@@ -1,3 +1,8 @@
+.learnMoreAnimation {
+     opacity: 0;
+     transition: all 1s ease;
+}
+
 .learnMoreContainer {
      display: flex;
      flex-direction: column;
@@ -9,6 +14,7 @@
      display: flex;
      gap: 100px;
      margin-bottom: 55px;
+     opacity: 0;
 }
 
 .learnMoreItemLeft {

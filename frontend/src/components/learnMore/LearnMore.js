@@ -10,8 +10,8 @@ const LearnMore = () => {
      }
 
      return (
-          <div className='componentFirst '>
-               <div className=' componentSecond'>
+          <div className='componentFirst learnMoreAnimation'>
+               <div className='componentSecond'>
                     <div className='learnMoreContainer'>
                          <div className='learnMoreItem'>
                               <div className='learnMoreItemLeft'>

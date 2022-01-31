@@ -20,7 +20,7 @@ const Timer = () => {
           }
      }, [expired, countdownDate])
      return (
-          <div className='componentFirst'>
+          <div className='componentFirst timerAnimation'>
                <div className='timer componentSecond'>
                     <div className='timerCounter'>
                          <div className='timerTitle'>coming soon</div>
