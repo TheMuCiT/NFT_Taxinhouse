@@ -86,12 +86,21 @@
      position: absolute;
      top: 0;
      left: 0;
+     height: 150px;
+     width: 100%;
+     z-index: -1;
+     overflow: hidden;
+     transition: z-index 1s linear;
+}
+
+.navbarMobileContainerActive {
+     position: absolute;
+     top: 0;
+     left: 0;
      height: 100%;
      width: 100%;
      z-index: 999;
      overflow: hidden;
-     user-select: none;
-     pointer-events: none;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -101,6 +110,9 @@
 }
 
 @media only screen and (max-width: 1200px) {
+     .Mobile {
+          cursor: pointer;
+     }
      .navbar {
           justify-content: flex-end;
           align-items: center;

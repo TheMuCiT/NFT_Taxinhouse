@@ -31,9 +31,9 @@ const Navbar = () => {
                          </div>
                     </div>
                </div>
-               <div className='navbarMobileButton' onClick={HandleMobileMenu}>
-                    <MobileMenu className={Mobile ? 'Mobile' : 'Mobile'} />
-                    <div className='navbarMobileContainer'>
+               <div className='navbarMobileButton'>
+                    <MobileMenu className={Mobile ? 'Mobile' : 'Mobile'} onClick={HandleMobileMenu} />
+                    <div className={Mobile ? 'navbarMobileContainerActive' : 'navbarMobileContainer'}>
                          <div className={Mobile ? 'navbarMenu active' : 'navbarMenu'}>
                               <div className='navbarMenuContainer'>
                                    <div className='navbarMobileTop'>
