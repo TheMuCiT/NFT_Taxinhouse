@@ -8,7 +8,7 @@ const Animation = () => {
      const scrollAnimation = () => {
           let offset = 300
           if (window.innerWidth < 600) {
-               offset = 200
+               offset = 150
           }
           let WindowsPosition = window.pageYOffset
           let windowBottomPositon = WindowsPosition + window.outerHeight
